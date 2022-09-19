@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: #110F25;
+    height: 100vh;
+    .top-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #110F25;
+        background-image: url('../../assets/bg-img.png');
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-bottom: 79px;
+        margin-bottom: -1px;
+        span{
+            img{
+                margin-bottom: 28.38px;
+            }
+        }
+        h1{
+            font-family: Space Grotesk;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 102px;
+            color: #ffffff;
+        }
+        h4{
+            font-family: Oxanium;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #ffffff;
+            margin-top: 8px;
+        }
+        .button-container{
+            padding-top: 43px;
+            display: flex;
+            gap: 16px;
+            margin-bottom: 119px;
+        }
+        .get-started{
+            height: 74px;
+            width: 328px;
+            border: none;
+            background-color: #ffffff;
+            font-family: Oxanium;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        .start-trading{
+            height: 74px;
+            width: 328px;
+            background-color: transparent;
+            border: 3px solid #FFFFFF;
+            font-family: Oxanium;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #ffffff;                
+        }
+        .top-section-card-wrapper{
+            background-color: #16132F;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .top-section-card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 375px;
+                height: 332px;
+                justify-content: center;
+                border-radius: 5px;
+                background-color: #110F25;
+                box-shadow: 0px 0px 4px 0px #FBFBFB33;
+                h3{
+                    font-family: Space Grotesk;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    color: #ffffff;
+                    margin-top: 24px;
+                }
+                p{
+                    font-family: Oxanium;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #ffffff;
+                    max-width: 280px;
+                    margin-top: 16px;
+                }
+            }
+            .earn{
+                background-color: #463283;
+            }
+        }
+    }
+    .crypto-market{
+        background-color: #110F25;
+        padding: 0px 0 51px 0;
+        background-image: url('../../assets/bg-2.png');
+        background-position: top center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: Space Grotesk;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        p{
+            font-family: Space Grotesk;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+            color: #ffffff;
+            opacity: 0.5;
+            a{
+                color: #8915D1;
+            }
+        }
+        h5{
+            font-family: Space Grotesk;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .coin-charts{
+            display: flex;
+            gap: 37px;
+            padding-top: 37px;
+            margin-bottom: 104px;
+            justify-content: center;
+        }
+        .search{
+            height: 74px;
+            width: 328px;
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 36px;
+            font-family: Oxanium;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #ffffff;
+        }
+        .coins-table-wrapper{
+            margin-bottom: 85px;
+            max-width: 1089px;
+            align-self: center;
+            .coins-table{
+                border-bottom: 1px solid #FFFFFF80;
+                margin-bottom: 22px;
+                .coins-table-top{
+                    display: flex;
+                    gap: 70px;
+                    margin-top: 68px;
+                    border-top: 1px solid #FFFFFF80;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    .header-1{
+                        width: 10%;
+                    }
+                    .header-2{
+                        width: 10%;
+                    }
+                    .header-3{
+                        width: 10%;
+                    }
+                    .header-4{
+                        width: 15%;
+                        white-space: nowrap;
+                    }
+                    .header-5{
+                        width: 20%;
+                    }
+                    .header-6{
+                        width: 25%;
+                    }
+                    .header-7{
+                        width: 10%;
+                    }
+                }
+            }
+            .active-page{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 11px;
+                .page-1{
+                    border: 1px solid #ffffff;
+                    width: 26px;
+                    height: 26px;
+                }
+            }
+        }
+    }
+    .bottom-section {
+        background-color: #110F25;
+        background-image: url('../../assets/bg-img.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        h2{
+            font-family: Space Grotesk;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        p{
+            font-family: Space Grotesk;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+            color: #ffffff;
+            opacity: 0.5;
+            a{
+                color: #8915D1;
+            }
+        }
+        .get-started{
+            padding-top: 19px;
+            margin-bottom: 79px;
+            margin-top: -2px;
+            .get-started-card-wrapper{
+                display: flex;
+                gap: 16px;
+                margin-top: 79px;
+                justify-content: center;
+            }
+        }
+        .news-letter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 104px;
+            h2{
+                font-family: Space Grotesk;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 46px;
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 8px;
+            }
+            p{
+                font-family: Space Grotesk;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23px;
+                text-align: center;
+                color: #ffffff;
+                opacity: 0.5;
+                max-width: 730px;
+                a{
+                    color: #8915D1;
+                }
+            }
+            form{
+                margin-top: 40px;
+                display: flex;
+                gap: 10px;
+                input{
+                    width: 328px;
+                    height: 74px;
+                    padding-left: 24px;
+                    background-color: transparent;
+                    border:  1px solid #ffffff;
+                    font-family: Oxanium;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #ffffff;
+                    outline: none;
+                }
+                input::placeholder{
+                    font-family: Oxanium;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #ffffff;
+                }
+                button{
+                    width: 190px;
+                    height: 74px;
+                    background-color: #463283;
+                    border: none;
+                    font-family: Oxanium;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
